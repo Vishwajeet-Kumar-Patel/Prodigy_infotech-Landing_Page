@@ -1,0 +1,226 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* Header Styles */
+header {
+    background-color: silver;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.logo {
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Home Section Styles */
+#home {
+    background-image: url('impressions.jpg');
+    background-size: cover;
+    background-position: center;
+    color: gray;
+    text-align: center;
+    padding: 150px 0;
+    height: 650px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: silver;
+    font-family: monospace;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 30px;
+    font-style: oblique;
+    margin: 340px;
+}
+
+/* Products Section Styles */
+#products {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* About Section Styles */
+#about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    font: 200;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+.menu{
+    font-size: 35px;
+}
+
+p{
+    font-size: 25px;
+    font-family: ui-sans-serif;
+    color: #4b3864;
+}
+
+p2{
+    font-size: 30px;
+    font-family: -webkit-body;
+    color: dimgray;
+}
+
+h2{
+    
+    font-size: 50px;
+    font-family: emoji;
+    background-color: #add8e6;
+}
+
+footer{
+    background-color: black;
+    max-width: 100%;
+    color: white;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;   
+     color: black;
+}
+
+.btnm{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.containerLeft img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    margin: 80px;
+    border-radius: 50px;
+    width: 150px
+  }
+  
+  .containerRight a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    margin:  5px  50px;
+    border-radius: 50px;
+    width: 130px
+    height: 50px;
+    color: black;
+    font-size : 60px;
+  }
+
+
+  .product a {
+    border-radius: 15px;
+    display: block;
+    background-color: #3d3d3b;
+    font-size: 30px;
+    font-family: cursive;
+    color: ghostwhite;
+  }
+
+  
